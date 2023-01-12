@@ -19,6 +19,7 @@ class Home extends StatelessWidget {
         child: Image.network(
             'https://images.unsplash.com/photo-1673427303785-2f077047aac3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMnx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60'),
       ),
+          Image.assest('unsplash.jpg'),
       floatingActionButton: FloatingActionButton(
         onPressed: (() {}),
         child: Text('button'),
